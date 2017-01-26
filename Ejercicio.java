@@ -36,6 +36,12 @@ public class Ejercicio{
 
         }
 
+        //Agregar un 2 array
+
+        int[] array2;
+
+        
+
           
 
             
