@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Ejercicio{
 
@@ -6,6 +7,8 @@ public class Ejercicio{
 
 
             int[] array;
+
+            Random random = new Random();
 
             Scanner captura = new Scanner(System.in);
 
@@ -17,11 +20,11 @@ public class Ejercicio{
 
             //Llenar array
 
-            System.out.println("Ingresa los datos del array: ");
+            System.out.println("Llenado automatico array: ");
 
             for(int i = 0; i < array.length; i++){
 
-                array[i] = captura.nextInt();
+                array[i] = random.nextInt(30);
 
             }
 
