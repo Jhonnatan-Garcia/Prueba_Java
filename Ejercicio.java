@@ -25,6 +25,14 @@ public class Ejercicio{
 
             }
 
+            //Impresion De array
+
+        for(int i = 0; i < array.length; i++){
+
+            System.out.println("Psicion: " + i + "Valor: " + array[i]);
+
+        }
+
           
 
             
